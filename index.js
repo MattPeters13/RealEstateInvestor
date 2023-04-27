@@ -7,7 +7,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 // Define routes
 app.get('/', (req, res) => {
-  res.render('home');
+  res.render('caprate');
 });
 
 // Start the server
