@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+    <link href="caprate.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="text-center">
+    <header>
+      <h1 class="headerStyle"><strong> Real Estate Calculator</strong> </h1>
+      <div class="main">
+        <ul>
+          
+          <li><a href="index.html">Cap Rate</a></li>
+          <li><a href="mortgage.html">Mortgage</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="https://www.zillow.com/">Zillow</a></li>
+          
+        </ul>
+      </div>
+
+
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="card1">
+		    <div class="card-body">
+        <!-- <h3>
+            <span class="markImg1"></span>
+             Net profits of property(number only)
+        </h3> -->
+
+        <h6>Loan Amount</h6> 
+        <input type="number" name="question1" id="loanAmount">
+         <h6>Loan Term (years)</h6> 
+        <input type="number" name="question2" id="loanTerm">
+        <h6>Intrest Rate</h6> 
+        <input type="number" name="question3" id="intrestRate">
+        <br>
+        <br>
+        <div class="FeedbackCSS">
+          <div id="MortFeedback">
+          </div>
+        </div>
+        <h3>
+        <span class="GoodRateImg"></span>
+        </h3>
+        <h3 id="validationFdbk" class="bg-danger text-white"></h3>
+        <button id="button2" class="btn btn-primary">
+            Enter
+        </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="caprate.js"></script>
+  </body>
+</html>

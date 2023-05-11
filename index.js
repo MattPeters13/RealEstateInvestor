@@ -14,6 +14,14 @@ app.get('/home', (req, res) => {
 	res.render('home');
 });
 
+app.get('/mortgage', (req, res) => {
+	res.render('mortgage');
+});
+
+app.get('/info', (req, res) => {
+	res.render('info');
+});
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
